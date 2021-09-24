@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    letter-spacing: -0.035em;
+}
+body {
+    font-family: "Inconsolata";
+    background-color: #fff;
+    color: #333;
+}
+.container {
+    margin: auto;
+    max-width: 1440px;
+    height: 100vh;
+}
+.left-bold {
+    font-weight: bold;
+    text-align: left;
+}
+.e404 {
+    text-transform: uppercase;
+    width: 100%;
+    letter-spacing: -0.08em;
+    font-weight: bold;
+    font-size: 24px;
+}
+.article {
+    font-family: "Space Mono";
+}
+.article button {
+    text-transform: uppercase;
+    padding: 24px 43px;
+    color: #fff;
+    background-color: #333;
+    margin: 60px 0;
+    font-family: "Space Mono";
+    font-size: 14px;
+}
+.image {
+    width: 100%;
+    background: url('./Scarecrow.png') no-repeat;
+    background-size: contain;
+}
+footer {
+    align-items: center;
+    text-align: center;
+    color: #BDBDBD;
+    font-size: 14px;
+    text-transform: lowercase;
+    position: absolute;
+    bottom: 24px;
+}
+.user {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (min-width: 360px) {
+    .container {
+        padding: 24px;
+        padding-right: 0;
+        width: 100%;
+        
+    }
+    div {
+        display: block;
+        width: 100%;
+    }
+    .article h3 {
+        font-size: 48px;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+    .article p {
+        color: #4f4f4f;
+        font-size: 18px;
+    }
+    .image {
+        height: 220.35px;
+        margin: 60px 20px;
+    }
+}
+
+@media (min-width: 999px) {
+    .container {
+        margin-top: 40px;
+        margin-left: 77px;
+        height: 100vh;
+    }
+    .content {
+        display: flex;
+        width: 100%;
+        margin-top: 200px;
+    }
+    .article {
+        max-width: 586px;
+        margin-left: 100px;
+    }
+    .article h3 {
+        font-size: 64px;
+        margin-bottom: 36px;
+        font-weight: 700;
+    }
+    .article p {
+        color: #4f4f4f;
+        font-size: 24px;
+    }
+    .image {
+        height: 414.4px;
+        margin: 0;
+        max-width: 540px;
+    }
+    .article button {
+        margin: 88px 0;
+    }
+}
